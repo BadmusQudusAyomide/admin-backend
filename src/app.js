@@ -32,5 +32,6 @@ app.use('/orders', require('./routes/orders'));
 app.use('/products', require('./routes/products'));
 app.use('/categories', require('./routes/categories'));
 app.use('/sellers', require('./routes/sellers'));
+app.use('/payouts', require('./routes/payouts'));
 
 module.exports = app;
