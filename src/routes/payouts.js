@@ -1,6 +1,6 @@
 const express = require('express');
 const admin = require('firebase-admin');
-const { getBankCode } = require('../../escrow-backend/bankCodes');
+const { getBankCode } = require('../utils/bankCodes');
 
 const router = express.Router();
 
